@@ -4,6 +4,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>DiscoverWeeklyArchive</RootNamespace>
     <StartupObject>DiscoverWeeklyArchive.Program</StartupObject>
+    <UserSecretsId>1323fd5b-fd7d-4328-892d-62bf1d62541e</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
