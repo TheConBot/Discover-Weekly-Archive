@@ -7,7 +7,7 @@ using Coravel;
 using System.Threading;
 using Microsoft.Extensions.Hosting;
 
-namespace Discover_Weekly_Archive
+namespace DiscoverWeeklyArchive
 {
     public class DiscoverWeeklyArchiveService : IDiscoverWeeklyArchiveService
     {

@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 
-namespace Discover_Weekly_Archive
+namespace DiscoverWeeklyArchive
 {
     public class Utility
     {

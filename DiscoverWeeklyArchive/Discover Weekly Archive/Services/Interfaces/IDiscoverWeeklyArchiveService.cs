@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Discover_Weekly_Archive
+namespace DiscoverWeeklyArchive
 {
     public interface IDiscoverWeeklyArchiveService
     {

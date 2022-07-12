@@ -1,6 +1,6 @@
 ﻿using SpotifyAPI.Web;
 
-namespace Discover_Weekly_Archive
+namespace DiscoverWeeklyArchive
 {
     public interface ISpotifyService
     {

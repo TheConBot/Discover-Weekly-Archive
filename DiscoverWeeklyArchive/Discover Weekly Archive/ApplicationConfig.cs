@@ -4,11 +4,11 @@ using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Discover_Weekly_Archive
+namespace DiscoverWeeklyArchive
 {
     public class ApplicationConfig
     {
-        public const string AppName = "Discover Weekly Archive";
+        public const string AppName = "DiscoverWeeklyArchive";
         public static string AppConfigPath = Path.Combine(
           Environment.GetFolderPath(
             Environment.SpecialFolder.ApplicationData,

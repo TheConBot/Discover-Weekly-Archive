@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Discover_Weekly_Archive</RootNamespace>
-    <StartupObject>Discover_Weekly_Archive.Program</StartupObject>
+    <RootNamespace>DiscoverWeeklyArchive</RootNamespace>
+    <StartupObject>DiscoverWeeklyArchive.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>

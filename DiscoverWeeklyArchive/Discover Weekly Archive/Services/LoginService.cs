@@ -5,7 +5,7 @@ using SpotifyAPI.Web;
 using SpotifyAPI.Web.Auth;
 using System.Collections.Generic;
 
-namespace Discover_Weekly_Archive
+namespace DiscoverWeeklyArchive
 {
     public class LoginService : ILoginService
     {

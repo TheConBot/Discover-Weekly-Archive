@@ -5,7 +5,7 @@ using Microsoft.Extensions.Hosting;
 using SpotifyAPI.Web;
 using SpotifyAPI.Web.Auth;
 
-namespace Discover_Weekly_Archive
+namespace DiscoverWeeklyArchive
 {
     public class SpotifyService : ISpotifyService
     {
