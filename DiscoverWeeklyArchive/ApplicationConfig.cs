@@ -8,18 +8,7 @@ namespace DiscoverWeeklyArchive
 {
     public class ApplicationConfig
     {
-        public const string AppName = "DiscoverWeeklyArchive";
-        public static string AppConfigPath = Path.Combine(
-          Environment.GetFolderPath(
-            Environment.SpecialFolder.ApplicationData,
-            Environment.SpecialFolderOption.Create
-          ),
-          AppName
-        );
-        public static string AppConfigFilePath = Path.Combine(
-          AppConfigPath,
-          "config.json"
-        );
+        public static string AppConfigFilePath { get; set; }
 
         public AccountConfig Account { get; } = new AccountConfig();
 
@@ -40,9 +29,9 @@ namespace DiscoverWeeklyArchive
             File.Delete(AppConfigFilePath);
         }
 
-        public static async Task<ApplicationConfig> Load()
+        public static async Task<ApplicationConfig> Load(string path)
         {
-            Directory.CreateDirectory(AppConfigPath);
+            AppConfigFilePath = Path.Combine(path, "config.json");
             if (!File.Exists(AppConfigFilePath))
             {
                 var config = new ApplicationConfig();
